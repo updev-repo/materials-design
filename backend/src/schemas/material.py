@@ -20,7 +20,7 @@ class MaterialListItem(BaseModel):
 class MaterialListResponse(BaseModel):
     """Paginated list of materials."""
 
-    items: list[MaterialListItem]
+    data: list[MaterialListItem]
     total: int
     page: int
     size: int
