@@ -16,7 +16,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="app-header-left">
             <Link to="/" className="app-header-logo">
               <i className="fas fa-search app-header-icon" aria-hidden />
-              <span className="app-header-title">Materials Explorer</span>
+              <span className="app-header-title">Materials Design</span>
             </Link>
           </div>
           <div className="app-header-right">
